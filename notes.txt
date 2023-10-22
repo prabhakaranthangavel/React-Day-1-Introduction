@@ -1,0 +1,320 @@
+Contents : 
+
+1.what is React?   and   How does React Work?
+
+2.what is component?
+
+3.what is props?
+
+4.React vs Angular 
+Difference between library(React) vs framework(Angular)
+Virtual DOM vs RealDOM 
+
+
+5.what is npm? 
+How to create (or) open a React folder in VS code?
+How to Install Dependencies?
+How to run our app or project?
+
+
+6.what is jsx?   and   Working with HTML + Javascript + Rendering
+
+7.what is couple and self closing tag? 
+
+8.Difference between For methods vs MRF
+
+*************************************************************************************************************************
+
+1.what is React? 
+
+===>React is a popular JavaScript library for building user interfaces.
+    JavaScript library என்பதை React என்கிறோம்.
+    JavaScript library க்குள் Collection of Classes, Collection of Functions, Collection of Methods போன்ற எண்ணற்றவை அடங்கும்.
+    JavaScript library க்குள் இருக்கும் one of the type or Method ஐ React என்கிறோம்.
+
+===>React is used to build single-page applications.
+    Single-page applications ஐ உருவாக்க பயன்படுத்துகிறோம்.
+
+===>It is referred to as a frontend JavaScript framework.
+    React ஆனது frontend JavaScript framework ற்காக பயன்படுத்துகிறோம்.
+
+===>React is a tool for building UI components and reusable.
+    React ன் உடைய Architecture(அமைப்பு) = components
+    UI component களை உருவாக்கி அதிலிருந்து பயன்படுத்தலாம்.இதனை மீண்டும் மீண்டும் பயன்படுத்தலாம்.
+
+===>React, JavaScript library created by Facebook.
+    React, JavaScript library ஐ facebook ஆல் உருவாக்கப்பட்டது.
+
+
+                    *************************************************
+
+
+How does React Work?
+
+===>React creates a VIRTUAL DOM in memory.
+    React ஆனது VIRTUAL DOM ஐ உருவாக்குகிறது.
+
+===>React only changes what needs to be changed.
+    மாற்ற வேண்டியதை மட்டுமே React மாற்றுகிறது.
+
+*************************************************************************************************************************
+
+2.what is component?
+
+===>A component is a piece of the UI (User Interface)
+
+===>ஒவ்வொன்றையும் நாம் ஒவ்வொரு Event என அழைப்போம்.
+    அதாவது click,Open new tab,Type writing,mouseover.
+    அதேபோல் ஒவ்வொன்றையும் ஒரு component என்று அழைப்போம்.
+    
+    Example: Cake or Chocklet pieces
+    
+    Example: Home    Login   Signup   Dashboard  இவை அனைத்தும் ஒரு தனித்தனி component என்று சொல்லலாம்.
+
+    Best Exmple : War ல் தனித்தனி Team ஆக இருப்பார்கள்.இதனைத்தான் component என்று கூறுவோம்.
+
+    ஏறக்குறைய ஒரு function போல.
+
+===>ஒரு React file க்குள் எண்ணற்ற componentகள் இருக்கலாம் அல்லது உருவாக்கலாம்.
+          ஏன் இவ்வாறு செய்கிறோம் என்றால் நமக்கு எந்த component ஐ மாற்ற வேண்டுமோ அதை மட்டும் மாற்றலாம்.
+
+===>class ஐ வைத்து எழுதும் போது அதனை class component என்று அழைப்போம்.அதேபோல்
+    function ஐ வைத்து எழுதும் போது அதனை function component என்று அழைப்போம்.
+
+===>ஒரு component ஆனது HTML element ஐ  செய்யும்.
+
+*************************************************************************************************************************
+
+3.what is props?
+
+===>Props are arguments passed into React components.
+    property of a component = props 
+
+    ஒரு component க்கு data ஐ அனுப்பினால் அதனை props என்போம்.
+    data ஐ ஒரு இடத்தில் இருந்து இன்னொரு இடத்திற்கு அனுப்புதல் மாதிரி.
+
+===>props stands for /data/properties/parameters/arguments எல்லாம் ஒன்றுதான்.
+
+*************************************************************************************************************************
+
+4.React vs Angular 
+
+===>React ஐ கண்டுபிடித்தது facebook.
+    Angular ஐ கண்டுபிடித்தது Google.
+
+===>React is a library.
+    Angular is a framework.
+
+
+                    *************************************************
+
+
+Difference between library(React) vs framework(Angular)
+
+===>library(React)
+    நமக்கு தேவையானதை நாமே எழுதலாம் அல்லது ஒரு 3rd party இடமிருந்து கடன்(borrow) வாங்கலாம்.
+
+    framework(Angular)
+    நமக்கு தேவையானதை Angular ஆனது provide செய்யும்.
+
+===>library(React) 
+    ஒரு வேலையை முடிக்க குறைவான நேரம் மட்டுமே எடுத்துக் கொள்ளும்.
+
+    framework(Angular)
+    அதிக நேரம் ஆகும்.
+
+
+                    *************************************************
+
+
+Virtual DOM vs RealDOM 
+
+===>React ல் React DOM (Virtual DOM) ஐ பயன்படுத்துகிறோம்.
+    Angular ல் Real DOM ஐ பயன்படுத்துகிறோம்.
+
+===>React , React DOM (Virtual DOM) என்பது வீட்டின் Blueprint போன்றது.
+    ஆனால் Angular , Real DOM என்பது எந்த திட்டமிடலும் இல்லாமல் ஊருக்குச் செல்வது போன்றதாகும்.
+
+*************************************************************************************************************************
+
+5.what is npm? 
+
+===>npm stands for node package manager.
+
+===>npm என்பது Reactக்கு உண்டான playstore போன்றது ஆகும்.
+
+===>React னால் சில விஷயங்களை நேரடியாக பெற இயலாது.
+    அதனால் npm தேவைப்படுகிறது.
+
+
+                    *************************************************
+
+
+How to create (or) open a React folder in VS code?
+VS code ல் React folder ஐ எவ்வாறு உருவாக்குவது (அல்லது) திறப்பது?
+
+===>Method 1: one by one ஆக உள் நுழைவது
+
+    Command Prompt 
+    =>cd desktop 
+    =>cd B50 
+    =>cd 6React 
+    =>npm create vite (application/project/folder name)
+    =>React
+    =>Javascript
+    =>cd (application/project/folder name)
+    =>code .
+
+===>Method 2: நேரடியாக cmd கொடுத்து உள் நுழைவது
+
+    Command Prompt 
+    Open the 6React folder only
+    =>மேலே cmd 
+    =>Enter 
+    =>npm create vite (application/project/folder name)
+    =>React
+    =>Javascript
+    =>cd (application/project/folder name)
+    =>code .
+
+    இந்த இரண்டு method களில் ஏதேனும் ஒன்றை பயன்படுத்தினால் React folder ஆனது நேரடியாக VS code ல் open ஆகிவிடும்.
+    
+    இவ்வாறு நேரடியாக open செய்வதன் மூலம் சில package களை நாம் நேரடியாக பெற முடியும்.
+
+
+                    *************************************************
+
+
+===>How to Install Dependencies?
+    Dependencies ஐ எவ்வாறு Install செய்வது?
+    Dependencies ஐ Install செய்ய பயன்படுத்தும் keyword
+
+    npm install (அல்லது) npm install --force
+
+
+                    *************************************************    
+
+
+===>How to run our app or project?
+   நம்முடைய application அல்லது project ஐ எவ்வாறு Run செய்வது?
+   நம்முடைய application அல்லது project ஐ Run செய்ய பயன்படுத்தும் keyword
+
+   npm run dev =>link ஒன்று உருவாகும்.அதை பயன்படுத்தி output காணலாம்.
+
+
+                    *************************************************
+
+
+===>Example coding:
+
+    Step 1:open a React folder in VS code
+    cmd  +  npm create vite (application/project/folder name)  +  code .
+    
+    Step 2:Install Dependencies
+    npm install
+    
+    Step 3:Run our app
+    npm run dev
+    
+    Step 4:Working in App.jsx sheet
+      
+    function App() {
+        return {
+            <>
+              <h1>Welcome</h1>
+            </>
+        }
+    }
+    export default App              // Welcome 
+
+*************************************************************************************************************************
+
+6.what is jsx? 
+
+===>jsx stands for JavaScript XML.
+
+===>ஒரு coding அல்லது component க்குள் HTML + Javascript ஆகியவற்றை ஒன்றாக கொடுப்பதை jsx என்று அழைப்போம்.
+    
+
+                    *************************************************
+
+
+How to use Javascript in HTML?
+HTML ல் Javascript ஐ எவ்வாறு பயன்படுத்துவது?
+
+===>HTML ல் Javascript ஐ பயன்படுத்த curlybraces {} குறியீடு தேவைப்படுகிறது.
+
+===>Example coding 1: HTML + Javascript
+
+    Step 1:open a React folder in VS code
+    cmd  +  npm create vite (application/project/folder name)  +  code .
+    
+    Step 2:Install Dependencies
+    npm install
+    
+    Step 3:Run our app
+    npm run dev
+    
+    Step 4:Working in App.jsx sheet (HTML + Javascript = curlybraces {})
+      
+    function App() {
+        let name = "Erode"
+        return {
+            <>
+            <div>
+              <h1>Welcome {name}</h1>
+            </div>
+            </>
+        }
+    }
+    export default App              // Welcome Erode
+
+
+                    *************************************************
+
+
+===>Example coding 2: HTML + Javascript + Rendering (Ternary/Conditional/True-False) 
+
+    Step 1:open a React folder in VS code
+    cmd  +  npm create vite (application/project/folder name)  +  code .
+    
+    Step 2:Install Dependencies
+    npm install
+    
+    Step 3:Run our app
+    npm run dev
+    
+    Step 4:Working in App.jsx sheet (HTML + Javascript = curlybraces {}  +  Rendering (Ternary/Conditional/True-False))
+      
+    function App() {
+        let name = true
+        return {
+            <>
+                <div> Welcome To {name ? <h1>CSK</h1> : <h4>MumbaiBharath😂</h4>  }  </div>
+            </>
+        }
+    }
+    export default App              // Welcome true:CSK   false:MumbaiBharath😂
+
+    கவனிக்கப்பட வேண்டியவை:
+    (1) {}
+    (2) ?
+    (3) :
+
+*************************************************************************************************************************
+
+7.what is couple and self closing tag? 
+
+couple tag         = <h1></h1> <div></div> <span></span>
+
+self closing tag   = <hr/>  <img>  <br/>
+
+*************************************************************************************************************************
+
+8.Difference between For methods vs MRF
+
+For methods => value ஐ iterate செய்ய மட்டும் பயன்படுகிறது.value ஐ return செய்யாது.
+
+MRF methods => value ஐ return செய்ய பயன்படுகிறது.React ல் பெரும்பாலும் MRF method தான் பயன்படுத்துவோம்.
+
+*************************************************************************************************************************
